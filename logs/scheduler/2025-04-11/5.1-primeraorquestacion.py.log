@@ -1,0 +1,208 @@
+[2025-04-11T01:51:04.686+0000] {processor.py:186} INFO - Started process (PID=4198) to work on /opt/airflow/dags/5.1-primeraorquestacion.py
+[2025-04-11T01:51:04.688+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5.1-primeraorquestacion.py for tasks to queue
+[2025-04-11T01:51:04.689+0000] {logging_mixin.py:190} INFO - [2025-04-11T01:51:04.689+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5.1-primeraorquestacion.py
+[2025-04-11T01:51:04.793+0000] {logging_mixin.py:190} INFO - [2025-04-11T01:51:04.784+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/5.1-primeraorquestacion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/5.1-primeraorquestacion.py", line 23, in <module>
+    t1 >> [t2,t3] >> [t4,t5]
+    ~~~~~~~~~~~~~~^^~~~~~~~~
+TypeError: unsupported operand type(s) for >>: 'list' and 'list'
+[2025-04-11T01:51:04.795+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/5.1-primeraorquestacion.py
+[2025-04-11T01:51:04.819+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5.1-primeraorquestacion.py took 0.137 seconds
+[2025-04-11T01:51:24.518+0000] {processor.py:186} INFO - Started process (PID=4204) to work on /opt/airflow/dags/5.1-primeraorquestacion.py
+[2025-04-11T01:51:24.520+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5.1-primeraorquestacion.py for tasks to queue
+[2025-04-11T01:51:24.523+0000] {logging_mixin.py:190} INFO - [2025-04-11T01:51:24.522+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5.1-primeraorquestacion.py
+[2025-04-11T01:51:24.587+0000] {logging_mixin.py:190} INFO - [2025-04-11T01:51:24.579+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/5.1-primeraorquestacion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/5.1-primeraorquestacion.py", line 24, in <module>
+    t1 >> [t2,t3] >> [t4,t5]
+    ~~~~~~~~~~~~~~^^~~~~~~~~
+TypeError: unsupported operand type(s) for >>: 'list' and 'list'
+[2025-04-11T01:51:24.591+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/5.1-primeraorquestacion.py
+[2025-04-11T01:51:24.638+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5.1-primeraorquestacion.py took 0.129 seconds
+[2025-04-11T01:51:54.894+0000] {processor.py:186} INFO - Started process (PID=4216) to work on /opt/airflow/dags/5.1-primeraorquestacion.py
+[2025-04-11T01:51:54.896+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5.1-primeraorquestacion.py for tasks to queue
+[2025-04-11T01:51:54.898+0000] {logging_mixin.py:190} INFO - [2025-04-11T01:51:54.898+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5.1-primeraorquestacion.py
+[2025-04-11T01:51:54.991+0000] {logging_mixin.py:190} INFO - [2025-04-11T01:51:54.971+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/5.1-primeraorquestacion.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/5.1-primeraorquestacion.py", line 24, in <module>
+    t1 >> [t2,t3] >> [t4,t5]
+    ~~~~~~~~~~~~~~^^~~~~~~~~
+TypeError: unsupported operand type(s) for >>: 'list' and 'list'
+[2025-04-11T01:51:54.999+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/5.1-primeraorquestacion.py
+[2025-04-11T01:51:55.061+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5.1-primeraorquestacion.py took 0.175 seconds
+[2025-04-11T01:52:01.827+0000] {processor.py:186} INFO - Started process (PID=4217) to work on /opt/airflow/dags/5.1-primeraorquestacion.py
+[2025-04-11T01:52:01.829+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5.1-primeraorquestacion.py for tasks to queue
+[2025-04-11T01:52:01.831+0000] {logging_mixin.py:190} INFO - [2025-04-11T01:52:01.831+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5.1-primeraorquestacion.py
+[2025-04-11T01:52:01.899+0000] {processor.py:925} INFO - DAG(s) 'primera_orquestacion' retrieved from /opt/airflow/dags/5.1-primeraorquestacion.py
+[2025-04-11T01:52:02.065+0000] {logging_mixin.py:190} INFO - [2025-04-11T01:52:02.063+0000] {override.py:1912} INFO - Created Permission View: can delete on DAG:primera_orquestacion
+[2025-04-11T01:52:02.083+0000] {logging_mixin.py:190} INFO - [2025-04-11T01:52:02.082+0000] {override.py:1912} INFO - Created Permission View: can read on DAG:primera_orquestacion
+[2025-04-11T01:52:02.097+0000] {logging_mixin.py:190} INFO - [2025-04-11T01:52:02.097+0000] {override.py:1912} INFO - Created Permission View: can edit on DAG:primera_orquestacion
+[2025-04-11T01:52:02.114+0000] {logging_mixin.py:190} INFO - [2025-04-11T01:52:02.113+0000] {override.py:1912} INFO - Created Permission View: menu access on DAG Run:primera_orquestacion
+[2025-04-11T01:52:02.127+0000] {logging_mixin.py:190} INFO - [2025-04-11T01:52:02.127+0000] {override.py:1912} INFO - Created Permission View: can create on DAG Run:primera_orquestacion
+[2025-04-11T01:52:02.139+0000] {logging_mixin.py:190} INFO - [2025-04-11T01:52:02.139+0000] {override.py:1912} INFO - Created Permission View: can delete on DAG Run:primera_orquestacion
+[2025-04-11T01:52:02.149+0000] {logging_mixin.py:190} INFO - [2025-04-11T01:52:02.149+0000] {override.py:1912} INFO - Created Permission View: can read on DAG Run:primera_orquestacion
+[2025-04-11T01:52:02.151+0000] {logging_mixin.py:190} INFO - [2025-04-11T01:52:02.151+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-11T01:52:02.166+0000] {logging_mixin.py:190} INFO - [2025-04-11T01:52:02.166+0000] {dag.py:3262} INFO - Creating ORM DAG for primera_orquestacion
+[2025-04-11T01:52:02.177+0000] {logging_mixin.py:190} INFO - [2025-04-11T01:52:02.177+0000] {dag.py:4180} INFO - Setting next_dagrun for primera_orquestacion to 2024-01-01 00:00:00+00:00, run_after=2024-01-02 00:00:00+00:00
+[2025-04-11T01:52:02.205+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5.1-primeraorquestacion.py took 0.383 seconds
+[2025-04-11T01:52:32.986+0000] {processor.py:186} INFO - Started process (PID=4229) to work on /opt/airflow/dags/5.1-primeraorquestacion.py
+[2025-04-11T01:52:32.988+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5.1-primeraorquestacion.py for tasks to queue
+[2025-04-11T01:52:32.990+0000] {logging_mixin.py:190} INFO - [2025-04-11T01:52:32.989+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5.1-primeraorquestacion.py
+[2025-04-11T01:52:33.034+0000] {processor.py:925} INFO - DAG(s) 'primera_orquestacion' retrieved from /opt/airflow/dags/5.1-primeraorquestacion.py
+[2025-04-11T01:52:33.061+0000] {logging_mixin.py:190} INFO - [2025-04-11T01:52:33.061+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-11T01:52:33.088+0000] {logging_mixin.py:190} INFO - [2025-04-11T01:52:33.087+0000] {dag.py:4180} INFO - Setting next_dagrun for primera_orquestacion to None, run_after=None
+[2025-04-11T01:52:33.147+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5.1-primeraorquestacion.py took 0.167 seconds
+[2025-04-11T01:53:04.162+0000] {processor.py:186} INFO - Started process (PID=4241) to work on /opt/airflow/dags/5.1-primeraorquestacion.py
+[2025-04-11T01:53:04.164+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5.1-primeraorquestacion.py for tasks to queue
+[2025-04-11T01:53:04.167+0000] {logging_mixin.py:190} INFO - [2025-04-11T01:53:04.167+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5.1-primeraorquestacion.py
+[2025-04-11T01:53:04.233+0000] {processor.py:925} INFO - DAG(s) 'primera_orquestacion' retrieved from /opt/airflow/dags/5.1-primeraorquestacion.py
+[2025-04-11T01:53:04.280+0000] {logging_mixin.py:190} INFO - [2025-04-11T01:53:04.280+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-11T01:53:04.323+0000] {logging_mixin.py:190} INFO - [2025-04-11T01:53:04.322+0000] {dag.py:4180} INFO - Setting next_dagrun for primera_orquestacion to None, run_after=None
+[2025-04-11T01:53:04.360+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5.1-primeraorquestacion.py took 0.208 seconds
+[2025-04-11T01:53:19.236+0000] {processor.py:186} INFO - Started process (PID=4253) to work on /opt/airflow/dags/5.1-primeraorquestacion.py
+[2025-04-11T01:53:19.238+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5.1-primeraorquestacion.py for tasks to queue
+[2025-04-11T01:53:19.240+0000] {logging_mixin.py:190} INFO - [2025-04-11T01:53:19.239+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5.1-primeraorquestacion.py
+[2025-04-11T01:53:19.314+0000] {processor.py:925} INFO - DAG(s) 'primera_orquestacion' retrieved from /opt/airflow/dags/5.1-primeraorquestacion.py
+[2025-04-11T01:53:19.443+0000] {logging_mixin.py:190} INFO - [2025-04-11T01:53:19.442+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-11T01:53:19.463+0000] {logging_mixin.py:190} INFO - [2025-04-11T01:53:19.463+0000] {dag.py:4180} INFO - Setting next_dagrun for primera_orquestacion to None, run_after=None
+[2025-04-11T01:53:19.525+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5.1-primeraorquestacion.py took 0.294 seconds
+[2025-04-11T01:53:49.671+0000] {processor.py:186} INFO - Started process (PID=4297) to work on /opt/airflow/dags/5.1-primeraorquestacion.py
+[2025-04-11T01:53:49.673+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5.1-primeraorquestacion.py for tasks to queue
+[2025-04-11T01:53:49.676+0000] {logging_mixin.py:190} INFO - [2025-04-11T01:53:49.675+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5.1-primeraorquestacion.py
+[2025-04-11T01:53:49.722+0000] {processor.py:925} INFO - DAG(s) 'primera_orquestacion' retrieved from /opt/airflow/dags/5.1-primeraorquestacion.py
+[2025-04-11T01:53:49.751+0000] {logging_mixin.py:190} INFO - [2025-04-11T01:53:49.751+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-11T01:53:49.779+0000] {logging_mixin.py:190} INFO - [2025-04-11T01:53:49.778+0000] {dag.py:4180} INFO - Setting next_dagrun for primera_orquestacion to None, run_after=None
+[2025-04-11T01:53:49.830+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5.1-primeraorquestacion.py took 0.169 seconds
+[2025-04-11T01:54:20.498+0000] {processor.py:186} INFO - Started process (PID=4347) to work on /opt/airflow/dags/5.1-primeraorquestacion.py
+[2025-04-11T01:54:20.500+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5.1-primeraorquestacion.py for tasks to queue
+[2025-04-11T01:54:20.504+0000] {logging_mixin.py:190} INFO - [2025-04-11T01:54:20.503+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5.1-primeraorquestacion.py
+[2025-04-11T01:54:20.559+0000] {processor.py:925} INFO - DAG(s) 'primera_orquestacion' retrieved from /opt/airflow/dags/5.1-primeraorquestacion.py
+[2025-04-11T01:54:20.584+0000] {logging_mixin.py:190} INFO - [2025-04-11T01:54:20.584+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-11T01:54:20.611+0000] {logging_mixin.py:190} INFO - [2025-04-11T01:54:20.611+0000] {dag.py:4180} INFO - Setting next_dagrun for primera_orquestacion to None, run_after=None
+[2025-04-11T01:54:20.633+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5.1-primeraorquestacion.py took 0.146 seconds
+[2025-04-11T01:54:23.913+0000] {processor.py:186} INFO - Started process (PID=4348) to work on /opt/airflow/dags/5.1-primeraorquestacion.py
+[2025-04-11T01:54:23.938+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5.1-primeraorquestacion.py for tasks to queue
+[2025-04-11T01:54:23.941+0000] {logging_mixin.py:190} INFO - [2025-04-11T01:54:23.940+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5.1-primeraorquestacion.py
+[2025-04-11T01:54:24.386+0000] {processor.py:925} INFO - DAG(s) 'primera_orquestacion' retrieved from /opt/airflow/dags/5.1-primeraorquestacion.py
+[2025-04-11T01:54:24.486+0000] {logging_mixin.py:190} INFO - [2025-04-11T01:54:24.486+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-11T01:54:24.510+0000] {logging_mixin.py:190} INFO - [2025-04-11T01:54:24.509+0000] {dag.py:4180} INFO - Setting next_dagrun for primera_orquestacion to None, run_after=None
+[2025-04-11T01:54:24.564+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5.1-primeraorquestacion.py took 0.659 seconds
+[2025-04-11T01:54:54.785+0000] {processor.py:186} INFO - Started process (PID=4360) to work on /opt/airflow/dags/5.1-primeraorquestacion.py
+[2025-04-11T01:54:54.787+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5.1-primeraorquestacion.py for tasks to queue
+[2025-04-11T01:54:54.789+0000] {logging_mixin.py:190} INFO - [2025-04-11T01:54:54.788+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5.1-primeraorquestacion.py
+[2025-04-11T01:54:54.828+0000] {processor.py:925} INFO - DAG(s) 'primera_orquestacion' retrieved from /opt/airflow/dags/5.1-primeraorquestacion.py
+[2025-04-11T01:54:54.855+0000] {logging_mixin.py:190} INFO - [2025-04-11T01:54:54.855+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-11T01:54:54.880+0000] {logging_mixin.py:190} INFO - [2025-04-11T01:54:54.880+0000] {dag.py:4180} INFO - Setting next_dagrun for primera_orquestacion to None, run_after=None
+[2025-04-11T01:54:54.937+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5.1-primeraorquestacion.py took 0.157 seconds
+[2025-04-11T01:55:06.246+0000] {processor.py:186} INFO - Started process (PID=4367) to work on /opt/airflow/dags/5.1-primeraorquestacion.py
+[2025-04-11T01:55:06.247+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5.1-primeraorquestacion.py for tasks to queue
+[2025-04-11T01:55:06.250+0000] {logging_mixin.py:190} INFO - [2025-04-11T01:55:06.249+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5.1-primeraorquestacion.py
+[2025-04-11T01:55:06.282+0000] {processor.py:925} INFO - DAG(s) 'primera_orquestacion' retrieved from /opt/airflow/dags/5.1-primeraorquestacion.py
+[2025-04-11T01:55:06.317+0000] {logging_mixin.py:190} INFO - [2025-04-11T01:55:06.317+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-11T01:55:06.351+0000] {logging_mixin.py:190} INFO - [2025-04-11T01:55:06.350+0000] {dag.py:4180} INFO - Setting next_dagrun for primera_orquestacion to None, run_after=None
+[2025-04-11T01:55:06.378+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5.1-primeraorquestacion.py took 0.138 seconds
+[2025-04-11T01:55:36.697+0000] {processor.py:186} INFO - Started process (PID=4379) to work on /opt/airflow/dags/5.1-primeraorquestacion.py
+[2025-04-11T01:55:36.699+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5.1-primeraorquestacion.py for tasks to queue
+[2025-04-11T01:55:36.701+0000] {logging_mixin.py:190} INFO - [2025-04-11T01:55:36.700+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5.1-primeraorquestacion.py
+[2025-04-11T01:55:36.742+0000] {processor.py:925} INFO - DAG(s) 'primera_orquestacion' retrieved from /opt/airflow/dags/5.1-primeraorquestacion.py
+[2025-04-11T01:55:36.854+0000] {logging_mixin.py:190} INFO - [2025-04-11T01:55:36.854+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-11T01:55:36.867+0000] {logging_mixin.py:190} INFO - [2025-04-11T01:55:36.867+0000] {dag.py:3262} INFO - Creating ORM DAG for primera_orquestacion
+[2025-04-11T01:55:36.879+0000] {logging_mixin.py:190} INFO - [2025-04-11T01:55:36.879+0000] {dag.py:4180} INFO - Setting next_dagrun for primera_orquestacion to 2024-01-01 00:00:00+00:00, run_after=2024-01-02 00:00:00+00:00
+[2025-04-11T01:55:36.927+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5.1-primeraorquestacion.py took 0.237 seconds
+[2025-04-11T01:56:07.752+0000] {processor.py:186} INFO - Started process (PID=4391) to work on /opt/airflow/dags/5.1-primeraorquestacion.py
+[2025-04-11T01:56:07.755+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5.1-primeraorquestacion.py for tasks to queue
+[2025-04-11T01:56:07.757+0000] {logging_mixin.py:190} INFO - [2025-04-11T01:56:07.757+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5.1-primeraorquestacion.py
+[2025-04-11T01:56:07.816+0000] {processor.py:925} INFO - DAG(s) 'primera_orquestacion' retrieved from /opt/airflow/dags/5.1-primeraorquestacion.py
+[2025-04-11T01:56:07.853+0000] {logging_mixin.py:190} INFO - [2025-04-11T01:56:07.853+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-11T01:56:07.888+0000] {logging_mixin.py:190} INFO - [2025-04-11T01:56:07.887+0000] {dag.py:4180} INFO - Setting next_dagrun for primera_orquestacion to 2024-01-01 00:00:00+00:00, run_after=2024-01-02 00:00:00+00:00
+[2025-04-11T01:56:07.936+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5.1-primeraorquestacion.py took 0.190 seconds
+[2025-04-11T01:56:38.084+0000] {processor.py:186} INFO - Started process (PID=4403) to work on /opt/airflow/dags/5.1-primeraorquestacion.py
+[2025-04-11T01:56:38.086+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5.1-primeraorquestacion.py for tasks to queue
+[2025-04-11T01:56:38.088+0000] {logging_mixin.py:190} INFO - [2025-04-11T01:56:38.087+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5.1-primeraorquestacion.py
+[2025-04-11T01:56:38.117+0000] {processor.py:925} INFO - DAG(s) 'primera_orquestacion' retrieved from /opt/airflow/dags/5.1-primeraorquestacion.py
+[2025-04-11T01:56:38.145+0000] {logging_mixin.py:190} INFO - [2025-04-11T01:56:38.144+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-11T01:56:38.169+0000] {logging_mixin.py:190} INFO - [2025-04-11T01:56:38.168+0000] {dag.py:4180} INFO - Setting next_dagrun for primera_orquestacion to 2024-01-01 00:00:00+00:00, run_after=2024-01-02 00:00:00+00:00
+[2025-04-11T01:56:38.217+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5.1-primeraorquestacion.py took 0.140 seconds
+[2025-04-11T01:57:08.737+0000] {processor.py:186} INFO - Started process (PID=4415) to work on /opt/airflow/dags/5.1-primeraorquestacion.py
+[2025-04-11T01:57:08.739+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5.1-primeraorquestacion.py for tasks to queue
+[2025-04-11T01:57:08.740+0000] {logging_mixin.py:190} INFO - [2025-04-11T01:57:08.740+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5.1-primeraorquestacion.py
+[2025-04-11T01:57:08.788+0000] {processor.py:925} INFO - DAG(s) 'primera_orquestacion' retrieved from /opt/airflow/dags/5.1-primeraorquestacion.py
+[2025-04-11T01:57:08.824+0000] {logging_mixin.py:190} INFO - [2025-04-11T01:57:08.824+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-11T01:57:08.849+0000] {logging_mixin.py:190} INFO - [2025-04-11T01:57:08.849+0000] {dag.py:4180} INFO - Setting next_dagrun for primera_orquestacion to 2024-01-01 00:00:00+00:00, run_after=2024-01-02 00:00:00+00:00
+[2025-04-11T01:57:08.897+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5.1-primeraorquestacion.py took 0.169 seconds
+[2025-04-11T01:57:39.329+0000] {processor.py:186} INFO - Started process (PID=4427) to work on /opt/airflow/dags/5.1-primeraorquestacion.py
+[2025-04-11T01:57:39.331+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5.1-primeraorquestacion.py for tasks to queue
+[2025-04-11T01:57:39.333+0000] {logging_mixin.py:190} INFO - [2025-04-11T01:57:39.333+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5.1-primeraorquestacion.py
+[2025-04-11T01:57:39.359+0000] {processor.py:925} INFO - DAG(s) 'primera_orquestacion' retrieved from /opt/airflow/dags/5.1-primeraorquestacion.py
+[2025-04-11T01:57:39.386+0000] {logging_mixin.py:190} INFO - [2025-04-11T01:57:39.386+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-11T01:57:39.408+0000] {logging_mixin.py:190} INFO - [2025-04-11T01:57:39.408+0000] {dag.py:4180} INFO - Setting next_dagrun for primera_orquestacion to 2024-01-01 00:00:00+00:00, run_after=2024-01-02 00:00:00+00:00
+[2025-04-11T01:57:39.451+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5.1-primeraorquestacion.py took 0.128 seconds
+[2025-04-11T01:58:09.934+0000] {processor.py:186} INFO - Started process (PID=4439) to work on /opt/airflow/dags/5.1-primeraorquestacion.py
+[2025-04-11T01:58:09.939+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5.1-primeraorquestacion.py for tasks to queue
+[2025-04-11T01:58:09.942+0000] {logging_mixin.py:190} INFO - [2025-04-11T01:58:09.941+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5.1-primeraorquestacion.py
+[2025-04-11T01:58:09.994+0000] {processor.py:925} INFO - DAG(s) 'primera_orquestacion' retrieved from /opt/airflow/dags/5.1-primeraorquestacion.py
+[2025-04-11T01:58:10.032+0000] {logging_mixin.py:190} INFO - [2025-04-11T01:58:10.031+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-11T01:58:10.056+0000] {logging_mixin.py:190} INFO - [2025-04-11T01:58:10.056+0000] {dag.py:4180} INFO - Setting next_dagrun for primera_orquestacion to 2024-01-01 00:00:00+00:00, run_after=2024-01-02 00:00:00+00:00
+[2025-04-11T01:58:10.088+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5.1-primeraorquestacion.py took 0.159 seconds
+[2025-04-11T01:58:40.725+0000] {processor.py:186} INFO - Started process (PID=4450) to work on /opt/airflow/dags/5.1-primeraorquestacion.py
+[2025-04-11T01:58:40.727+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5.1-primeraorquestacion.py for tasks to queue
+[2025-04-11T01:58:40.729+0000] {logging_mixin.py:190} INFO - [2025-04-11T01:58:40.728+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5.1-primeraorquestacion.py
+[2025-04-11T01:58:40.771+0000] {processor.py:925} INFO - DAG(s) 'primera_orquestacion' retrieved from /opt/airflow/dags/5.1-primeraorquestacion.py
+[2025-04-11T01:58:40.796+0000] {logging_mixin.py:190} INFO - [2025-04-11T01:58:40.796+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-11T01:58:40.817+0000] {logging_mixin.py:190} INFO - [2025-04-11T01:58:40.817+0000] {dag.py:4180} INFO - Setting next_dagrun for primera_orquestacion to 2024-01-01 00:00:00+00:00, run_after=2024-01-02 00:00:00+00:00
+[2025-04-11T01:58:40.838+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5.1-primeraorquestacion.py took 0.119 seconds
+[2025-04-11T01:59:11.078+0000] {processor.py:186} INFO - Started process (PID=4462) to work on /opt/airflow/dags/5.1-primeraorquestacion.py
+[2025-04-11T01:59:11.079+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5.1-primeraorquestacion.py for tasks to queue
+[2025-04-11T01:59:11.081+0000] {logging_mixin.py:190} INFO - [2025-04-11T01:59:11.081+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5.1-primeraorquestacion.py
+[2025-04-11T01:59:11.124+0000] {processor.py:925} INFO - DAG(s) 'primera_orquestacion' retrieved from /opt/airflow/dags/5.1-primeraorquestacion.py
+[2025-04-11T01:59:11.154+0000] {logging_mixin.py:190} INFO - [2025-04-11T01:59:11.154+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-11T01:59:11.177+0000] {logging_mixin.py:190} INFO - [2025-04-11T01:59:11.177+0000] {dag.py:4180} INFO - Setting next_dagrun for primera_orquestacion to 2024-01-01 00:00:00+00:00, run_after=2024-01-02 00:00:00+00:00
+[2025-04-11T01:59:11.232+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5.1-primeraorquestacion.py took 0.160 seconds
+[2025-04-11T01:59:42.133+0000] {processor.py:186} INFO - Started process (PID=4474) to work on /opt/airflow/dags/5.1-primeraorquestacion.py
+[2025-04-11T01:59:42.135+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5.1-primeraorquestacion.py for tasks to queue
+[2025-04-11T01:59:42.138+0000] {logging_mixin.py:190} INFO - [2025-04-11T01:59:42.137+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5.1-primeraorquestacion.py
+[2025-04-11T01:59:42.175+0000] {processor.py:925} INFO - DAG(s) 'primera_orquestacion' retrieved from /opt/airflow/dags/5.1-primeraorquestacion.py
+[2025-04-11T01:59:42.202+0000] {logging_mixin.py:190} INFO - [2025-04-11T01:59:42.202+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-11T01:59:42.225+0000] {logging_mixin.py:190} INFO - [2025-04-11T01:59:42.225+0000] {dag.py:4180} INFO - Setting next_dagrun for primera_orquestacion to 2024-01-01 00:00:00+00:00, run_after=2024-01-02 00:00:00+00:00
+[2025-04-11T01:59:42.248+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5.1-primeraorquestacion.py took 0.121 seconds
+[2025-04-11T02:00:12.724+0000] {processor.py:186} INFO - Started process (PID=4486) to work on /opt/airflow/dags/5.1-primeraorquestacion.py
+[2025-04-11T02:00:12.725+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5.1-primeraorquestacion.py for tasks to queue
+[2025-04-11T02:00:12.727+0000] {logging_mixin.py:190} INFO - [2025-04-11T02:00:12.727+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5.1-primeraorquestacion.py
+[2025-04-11T02:00:12.756+0000] {processor.py:925} INFO - DAG(s) 'primera_orquestacion' retrieved from /opt/airflow/dags/5.1-primeraorquestacion.py
+[2025-04-11T02:00:12.782+0000] {logging_mixin.py:190} INFO - [2025-04-11T02:00:12.781+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-11T02:00:12.807+0000] {logging_mixin.py:190} INFO - [2025-04-11T02:00:12.806+0000] {dag.py:4180} INFO - Setting next_dagrun for primera_orquestacion to 2024-01-01 00:00:00+00:00, run_after=2024-01-02 00:00:00+00:00
+[2025-04-11T02:00:12.835+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5.1-primeraorquestacion.py took 0.117 seconds
+[2025-04-11T02:00:43.315+0000] {processor.py:186} INFO - Started process (PID=4498) to work on /opt/airflow/dags/5.1-primeraorquestacion.py
+[2025-04-11T02:00:43.319+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5.1-primeraorquestacion.py for tasks to queue
+[2025-04-11T02:00:43.337+0000] {logging_mixin.py:190} INFO - [2025-04-11T02:00:43.337+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5.1-primeraorquestacion.py
+[2025-04-11T02:00:43.428+0000] {processor.py:925} INFO - DAG(s) 'primera_orquestacion' retrieved from /opt/airflow/dags/5.1-primeraorquestacion.py
+[2025-04-11T02:00:43.458+0000] {logging_mixin.py:190} INFO - [2025-04-11T02:00:43.457+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-11T02:00:43.483+0000] {logging_mixin.py:190} INFO - [2025-04-11T02:00:43.483+0000] {dag.py:4180} INFO - Setting next_dagrun for primera_orquestacion to 2024-01-01 00:00:00+00:00, run_after=2024-01-02 00:00:00+00:00
+[2025-04-11T02:00:43.545+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5.1-primeraorquestacion.py took 0.242 seconds
+[2025-04-11T02:01:14.333+0000] {processor.py:186} INFO - Started process (PID=4510) to work on /opt/airflow/dags/5.1-primeraorquestacion.py
+[2025-04-11T02:01:14.335+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5.1-primeraorquestacion.py for tasks to queue
+[2025-04-11T02:01:14.337+0000] {logging_mixin.py:190} INFO - [2025-04-11T02:01:14.337+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5.1-primeraorquestacion.py
+[2025-04-11T02:01:14.385+0000] {processor.py:925} INFO - DAG(s) 'primera_orquestacion' retrieved from /opt/airflow/dags/5.1-primeraorquestacion.py
+[2025-04-11T02:01:14.425+0000] {logging_mixin.py:190} INFO - [2025-04-11T02:01:14.425+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-11T02:01:14.447+0000] {logging_mixin.py:190} INFO - [2025-04-11T02:01:14.447+0000] {dag.py:4180} INFO - Setting next_dagrun for primera_orquestacion to 2024-01-01 00:00:00+00:00, run_after=2024-01-02 00:00:00+00:00
+[2025-04-11T02:01:14.503+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5.1-primeraorquestacion.py took 0.174 seconds
+[2025-04-11T02:01:44.612+0000] {processor.py:186} INFO - Started process (PID=4522) to work on /opt/airflow/dags/5.1-primeraorquestacion.py
+[2025-04-11T02:01:44.614+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/5.1-primeraorquestacion.py for tasks to queue
+[2025-04-11T02:01:44.616+0000] {logging_mixin.py:190} INFO - [2025-04-11T02:01:44.616+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/5.1-primeraorquestacion.py
+[2025-04-11T02:01:44.663+0000] {processor.py:925} INFO - DAG(s) 'primera_orquestacion' retrieved from /opt/airflow/dags/5.1-primeraorquestacion.py
+[2025-04-11T02:01:44.693+0000] {logging_mixin.py:190} INFO - [2025-04-11T02:01:44.693+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-11T02:01:44.717+0000] {logging_mixin.py:190} INFO - [2025-04-11T02:01:44.717+0000] {dag.py:4180} INFO - Setting next_dagrun for primera_orquestacion to 2024-01-01 00:00:00+00:00, run_after=2024-01-02 00:00:00+00:00
+[2025-04-11T02:01:44.741+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/5.1-primeraorquestacion.py took 0.135 seconds

@@ -1,0 +1,24 @@
+[2025-04-10T23:45:06.915+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-04-10T23:45:06.938+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dependencias.t4_bash manual__2025-04-10T23:45:03.528313+00:00 [queued]>
+[2025-04-10T23:45:06.950+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dependencias.t4_bash manual__2025-04-10T23:45:03.528313+00:00 [queued]>
+[2025-04-10T23:45:06.952+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 1
+[2025-04-10T23:45:06.966+0000] {taskinstance.py:2890} INFO - Executing <Task(BashOperator): t4_bash> on 2025-04-10 23:45:03.528313+00:00
+[2025-04-10T23:45:06.973+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=1970) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-04-10T23:45:06.975+0000] {standard_task_runner.py:72} INFO - Started process 1971 to run task
+[2025-04-10T23:45:06.975+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'dependencias', 't4_bash', 'manual__2025-04-10T23:45:03.528313+00:00', '--job-id', '15', '--raw', '--subdir', 'DAGS_FOLDER/3-dependencias.py', '--cfg-path', '/tmp/tmp6ztoj5ec']
+[2025-04-10T23:45:06.976+0000] {standard_task_runner.py:105} INFO - Job 15: Subtask t4_bash
+[2025-04-10T23:45:07.024+0000] {task_command.py:467} INFO - Running <TaskInstance: dependencias.t4_bash manual__2025-04-10T23:45:03.528313+00:00 [running]> on host 241bfdac645b
+[2025-04-10T23:45:07.104+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='dependencias' AIRFLOW_CTX_TASK_ID='t4_bash' AIRFLOW_CTX_EXECUTION_DATE='2025-04-10T23:45:03.528313+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-04-10T23:45:03.528313+00:00'
+[2025-04-10T23:45:07.106+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2025-04-10T23:45:07.118+0000] {subprocess.py:78} INFO - Tmp dir root location: /tmp
+[2025-04-10T23:45:07.121+0000] {subprocess.py:88} INFO - Running command: ['/usr/bin/bash', '-c', 'echo "Tarea 4"']
+[2025-04-10T23:45:07.132+0000] {subprocess.py:99} INFO - Output:
+[2025-04-10T23:45:07.134+0000] {subprocess.py:106} INFO - Tarea 4
+[2025-04-10T23:45:07.135+0000] {subprocess.py:110} INFO - Command exited with return code 0
+[2025-04-10T23:45:07.159+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-04-10T23:45:07.160+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=dependencias, task_id=t4_bash, run_id=manual__2025-04-10T23:45:03.528313+00:00, execution_date=20250410T234503, start_date=20250410T234506, end_date=20250410T234507
+[2025-04-10T23:45:07.232+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-04-10T23:45:07.262+0000] {taskinstance.py:3901} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-04-10T23:45:07.267+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
