@@ -3,7 +3,7 @@ from airflow.operators.bash import BashOperator
 from datetime import datetime
 
 with DAG(
-         dag_id='primera_orquestacion',
+         dag_id='primera_orquestation',
          schedule_interval='@daily',
          start_date=datetime(2024,1,1),
          end_date=datetime(2024,1,10),
